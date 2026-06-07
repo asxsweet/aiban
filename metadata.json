@@ -1,0 +1,6 @@
+{
+  "name": "DO YOU LOVE ME??",
+  "description": "A cute interactive love card and customized gift experience with memories album, virtual hugs, a mini-game, and an printable certificate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

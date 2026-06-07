@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: linear-gradient(135deg, #FFF5F6 0%, #FAEDF0 50%, #FFFDFE 100%);
+  background-attachment: fixed;
+  color: #3A2428;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Glassmorphism panel styling from Artistic Flair - Bright Romantic Mode */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(225, 29, 72, 0.12);
+  box-shadow: 0 10px 30px -10px rgba(225, 29, 72, 0.08);
+}
+
+.glass-accent {
+  background: rgba(225, 29, 72, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(225, 29, 72, 0.22);
+  box-shadow: 0 10px 30px -10px rgba(225, 29, 72, 0.12);
+}
+
+/* Outline text styles */
+.outline-text {
+  -webkit-text-stroke: 1px rgba(225, 29, 72, 0.4);
+  color: transparent;
+}
+
+/* Beautiful custom valentine rose text */
+.text-gold {
+  color: #E11D48;
+}
+
+.bg-gold {
+  background-color: #E11D48;
+  color: #ffffff;
+}
+
+.border-gold {
+  border-color: #E11D48;
+}
+
+/* Vertical decorative text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* Custom hand-written signature style */
+.font-signature {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Custom scrollbars for settings panel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(225, 29, 72, 0.02);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(225, 29, 72, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(225, 29, 72, 0.35);
+}
+
+/* Print styling helpers for keeping layouts clean */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
