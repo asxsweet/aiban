@@ -15,8 +15,8 @@ import SettingsPanel from "./components/SettingsPanel";
 import Confetti from "./components/Confetti";
 
 // Assets
-import catFlowers from "./assets/images/cat_flowers_1780515658877.png";
-import catAngryGun from "./assets/images/cat_angry_gun_1780515683483.png";
+import catFlowers from "./assets/images/Гифт4.gif";
+import catAngryGun from "./assets/images/Гифтә.gif";
 
 type AppState =
   | "love-ask"
@@ -162,7 +162,7 @@ export default function App() {
               className="flex flex-col items-center justify-center text-center max-w-md w-full p-6 sm:p-10 rounded-sm glass border border-rose-100 shadow-2xl"
             >
               <h1 className="font-serif leading-none tracking-tight mb-8">
-                <span className="text-xs uppercase tracking-[0.2em] font-sans font-medium text-[#3A2428]/60 block mb-2">Менің жаным,</span>
+                <span className="text-xs uppercase tracking-[0.2em] font-sans font-medium text-[#3A2428]/60 block mb-2">Жаным сол,</span>
                 <span className="text-3xl sm:text-4xl font-bold tracking-tighter text-[#3A2428] block">Сіз мені</span>
                 <span className="text-4xl sm:text-5xl font-bold outline-text block tracking-wide mt-1 uppercase">жақсы көресіз бе??</span>
               </h1>
@@ -214,8 +214,8 @@ export default function App() {
               className="flex flex-col items-center justify-center text-center max-w-md w-full p-6 sm:p-10 rounded-sm glass border border-rose-300 shadow-2xl"
             >
               <h1 className="font-serif leading-none tracking-tight mb-4">
-                <span className="text-[#D32F2F] text-3xl sm:text-4xl font-extrabold tracking-tighter uppercase block">Бұл недегеніңіз!</span>
-                <span className="text-rose-500 text-[10px] uppercase tracking-[0.25em] font-medium mt-2 block">Бұндай таңдау жоқ!</span>
+                <span className="text-[#D32F2F] text-3xl sm:text-4xl font-extrabold tracking-tighter uppercase block">Жоқ!Жоқ!Жоқ!</span>
+                <span className="text-rose-500 text-[10px] uppercase tracking-[0.25em] font-medium mt-2 block">Бұл таңдауыңызға келіспеймін!</span>
               </h1>
 
               {/* Angry gangster cat with NYC Cap */}
@@ -241,7 +241,7 @@ export default function App() {
                 onClick={handleTryAgain}
                 className="w-full sm:w-auto bg-[#D2143A] hover:bg-rose-600 text-white font-extrabold text-xs px-8 py-4 rounded-sm shadow-lg shadow-rose-900/15 cursor-pointer transition-all font-sans uppercase tracking-widest"
               >
-                Қайттан ойлан 🔁
+                Қайтадан ойлан асықпа 🔁
               </motion.button>
             </motion.div>
           )}

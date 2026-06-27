@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { ArrowLeft, Heart, Sparkles } from "lucide-react";
 import { LoveConfig } from "../types";
-import catFlowers from "../assets/images/cat_flowers_1780515658877.png";
+import catFlowers from "../assets/images/Гифт1.gif";
 import { playPop } from "../utils/audio";
 
 interface GiftLoveLetterProps {

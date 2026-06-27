@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowLeft, Heart, Sparkles, Send } from "lucide-react";
 import { LoveConfig } from "../types";
-import bearsHugging from "../assets/images/bears_hugging_1780515706814.png";
+import bearsHugging from "../assets/images/Гифт3.gif";
 import Confetti from "./Confetti";
 import { playPop, playChime } from "../utils/audio";
 

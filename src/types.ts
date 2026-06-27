@@ -1,7 +1,7 @@
 export interface LoveConfig {
   recipientName: string;
   senderName: string;
-  awardTitle: string; // e.g. "BEST BOYFRIEND AWARD", "BEST GIRLFRIEND AWARD"
+  awardTitle: string; 
   awardText: string;
   signatureText: string;
   awardDate: string;
@@ -15,7 +15,7 @@ export interface LoveConfig {
   
   // Gift 3
   gift3Title: string;
-  polaroidImages: string[]; // URLs or base64 data strings
+  polaroidImages: string[]; 
   polaroidCaptions: string[];
   
   // Gift 4 (Tic Tac Toe)
@@ -28,14 +28,14 @@ export const DEFAULT_CONFIG: LoveConfig = {
   recipientName: "Айбанина",
   senderName: "Айгерім",
   awardTitle: "Ең сұлу қызға",
-  awardText: "Мен әлемдегі ең бақытты жанмын себебі сіздей аруды жолықтырғаныма өте өте қуаныштымын,сізді дүниеге әкелген анаңызңа мың алғыс және мендей адамды жақсы көргеніңзге және сіздің барыңызға көптен көп рақмет,",
+  awardText: "Мен әлемдегі ең бақытты жанмын себебі сіздей аруды жолықтырғаныма өте өте қуаныштымын,сізді дүниеге әкелген анаңызға мың алғыс, Мені қалай бар солай қабылдап,жақсы көргеніңзге және сіздің барыңызға көптен көп рақмет,",
   signatureText: "мен сізді қатты жақсы көремін",
   awardDate: "06 маусым 2026",
   
-  gift1Title: "Менің жаныма",
-  gift1Text: "Мен сізді жақсы көремін",
+  gift1Title: "Жүрегім,Сұлуым",
+  gift1Text: "Сізбен өткізген әрбір уақыт маған маңызды және ценю және сізді өте өте қатты жақсы көремін",
   
-  gift2Text: "Менің виртуалды құшақпен барған сезімім сізге сезілді деген ойдамын",
+  gift2Text: "Құшақпен келген жылу экраннан сезілді деген ойдамын",
   
   gift3Title: "Әлемдегі ең әдемі суреттер",
   polaroidImages: [
@@ -44,12 +44,12 @@ export const DEFAULT_CONFIG: LoveConfig = {
     "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop"  // Happy aesthetic moment
   ],
   polaroidCaptions: [
-    "сіздің күлгеніңіз маған энергия береді🤝",
-    "сізбен өткен әрбір уақыт мен үшін өте маңызды 🌅",
-    "laughing with you completes me 💖"
+    "сіздің әр бір күлкіңіз маған жылу береді ",
+    "сізбен өткенкізген әрбір уақыт мен үшін өте маңызды ",
+    "сіздің барыңыз,маған Алланың берген сыйы"
   ],
   
   gift4Title: "Толтыр",
   gift4Text: "Арнайы сыйлық үшін жетіспей тұрған орынды толтыр!",
-  gift4WonText: "Иееп менің ақылдым сен жүректі толтырдың!артқа қайт <-",
+  gift4WonText: "Жаным Жаным ақылдым менің❤️!артқа қайт <-",
 };
