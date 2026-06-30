@@ -73,7 +73,7 @@ export default function GiftSelector({
         className="text-center mb-8"
       >
         <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest bg-rose-100 text-[#E11D48] border border-rose-200 mb-3 animate-pulse">
-          <Heart className="w-3.5 h-3.5 fill-[#E11D48]" /> Менің сүйікті адамыма
+          <Heart className="w-3.5 h-3.5 fill-[#E11D48]" /> Жақыным Менің Адамым
         </span>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#3A2428] tracking-tight uppercase font-serif">
           Сыйлықтар <span className="outline-text">сіз үшін</span>
