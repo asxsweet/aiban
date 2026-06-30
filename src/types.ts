@@ -28,7 +28,7 @@ export const DEFAULT_CONFIG: LoveConfig = {
   recipientName: "Айбанина",
   senderName: "Айгерім",
   awardTitle: "Ең сұлу қызға",
-  awardText: "Мен әлемдегі ең бақытты жанмын себебі сіздей аруды жолықтырғаныма өте өте қуаныштымын,сіздің мейірімділігің мен сізден шыққан әр бір сөз мен үшін сондай жақын,шынымды айтсам сіз менің үлкен бақытымсыз,сіз барда барлығы әдемірек және жеңілірек,сіздің менің өмірімде барыңыз үшін рақмет",
+  awardText: "Мен әлемдегі ең бақытты жанмын себебі сіздей аруды жолықтырғаныма өте өте қуаныштымын,сіздің мейірімділігіңізбен мен сізден шыққан әр бір сөз мен үшін сондай жақын,шынымды айтсам сіз менің үлкен бақытымсыз,сіз барда барлығы әдемірек және жеңілірек,сіздің менің өмірімде барыңызға рақмет",
   signatureText: "мен сізді қатты жақсы көремін",
   awardDate: "06 маусым 2026",
   
@@ -39,9 +39,9 @@ export const DEFAULT_CONFIG: LoveConfig = {
   
   gift3Title: "Әлемдегі ең әдемі суреттер",
   polaroidImages: [
-    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=600&auto=format&fit=crop", // Cute hands holding
-    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=600&auto=format&fit=crop", // Beach shadow couple
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop"  // Happy aesthetic moment
+    "src/assets/images/image2.jpeg", // Cute hands holding
+    "src/assets/images/image3.jpeg", // Beach shadow couple
+    "src/assets/images/image1.jpeg"  // Happy aesthetic moment
   ],
   polaroidCaptions: [
     "сіздің әр бір күлкіңіз маған жылу береді ",
