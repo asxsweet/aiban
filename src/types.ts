@@ -39,9 +39,9 @@ export const DEFAULT_CONFIG: LoveConfig = {
   
   gift3Title: "Әлемдегі ең әдемі суреттер",
   polaroidImages: [
-    "src/assets/images/image2.jpeg", // Cute hands holding
-    "src/assets/images/image3.jpeg", // Beach shadow couple
-    "src/assets/images/image1.jpeg"  // Happy aesthetic moment
+   "/images/image2.jpeg",
+  "/images/image3.jpeg",
+  "/images/image1.jpeg"
   ],
   polaroidCaptions: [
     "сіздің әр бір күлкіңіз маған жылу береді ",
