@@ -136,15 +136,7 @@ export default function App() {
         </div>
         
         {/* Creator Controls Indicator */}
-        <div className="flex items-center gap-4">
-          <button
-            onClick={() => setIsSettingsOpen(true)}
-            className="px-5 py-2.5 bg-[#E11D48] hover:bg-[#ff3b5f] text-white font-bold text-[10px] uppercase tracking-widest rounded-sm transition-all duration-300 shadow-lg shadow-[#E11D48]/20 cursor-pointer flex items-center gap-1.5"
-          >
-            <Settings className="w-3.5 h-3.5 text-white animate-spin-slow" />
-            <span>EDIT CARD</span>
-          </button>
-        </div>
+        
       </header>
 
       {/* Main Container / Content routers */}

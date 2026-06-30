@@ -9,6 +9,19 @@ interface CertificateAwardProps {
   config: LoveConfig;
 }
 
+// Ағымдағы күнді қазақша форматта алу (мысалы: "01 шілде 2026")
+const getCurrentDateKZ = (): string => {
+  const months = [
+    "қаңтар", "ақпан", "наурыз", "сәуір", "мамыр", "маусым",
+    "шілде", "тамыз", "қыркүйек", "қазан", "қараша", "желтоқсан"
+  ];
+  const now = new Date();
+  const day = now.getDate().toString().padStart(2, "0");
+  const month = months[now.getMonth()];
+  const year = now.getFullYear();
+  return `${day} ${month} ${year}`;
+};
+
 export default function CertificateAward({ onBack, config }: CertificateAwardProps) {
   const certificateRef = useRef<HTMLDivElement | null>(null);
 
@@ -175,14 +188,14 @@ export default function CertificateAward({ onBack, config }: CertificateAwardPro
             </motion.div>
           </div>
 
-          {/* Date field */}
+          {/* Date field — автоматты түрде бүгінгі күн қойылады */}
           <div className="flex flex-col items-center">
             <span className="font-serif text-sm sm:text-base font-bold text-[#3A2428] mb-1 select-all">
-              {config.awardDate}
+              {getCurrentDateKZ()}
             </span>
             <div className="w-36 h-0.5 bg-rose-100"></div>
             <span className="text-[10px] text-[#3A2428]/50 font-sans uppercase tracking-widest mt-1.5 font-bold">
-              марапатталған күні {config.awardDate ? "📅" : ""}
+              марапатталған күні 📅
             </span>
           </div>
         </div>
